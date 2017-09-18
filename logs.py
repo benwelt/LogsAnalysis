@@ -28,17 +28,17 @@ def query_log(query):
 
 
 def print_result(results):
-    print (results[0])
+    print(results[0])
     for result in results[1]:
-        print ("\t" + str(result[0]) + ' - ' + str(result[1]) + ' views.')
-    print ("\n")
+        print("\t" + str(result[0]) + ' - ' + str(result[1]) + ' views.')
+    print("\n")
 
 
 def print_error_result(results):
     print(results[0])
     for result in results[1]:
         print("\t" + str(result[0]) + " - " + str(result[1]) + "% Error Rate.")
-    print ("\n")
+    print("\n")
 
 
 if __name__ == '__main__':

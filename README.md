@@ -18,7 +18,7 @@ ___
 ##### Database Setup
 1. Unzip the project starter data into the `vagrant` directory
 2. Login to the VM and use the command `psql -d news -f newsdata.sql` to create and connect to the database
-___
+
 ## Analyze the Log
 
 The project requires 3 questions to be answered by using SQL to query the `news` database and print their outputs.
